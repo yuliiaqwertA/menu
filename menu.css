@@ -5,6 +5,7 @@
 	margin: 0;
 	font-family: ;
 	font-size: 16px;
+	font-family: 'Montserrat',Arial,sans-serif;
 }
 
 
@@ -16,16 +17,16 @@
 }
 
 ul {
-	background-color: #7473C0;
+	background-color: ;
 	height: 50px;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 2.5em;
 	justify-content: center;
 	list-style-type: none;
+	margin-top: 2.5em;
 }
 li a {
-	border: 5px solid #FF595A;
 	font-size: 1.5em;
 	text-decoration: none;
 	color: #1F3351;
@@ -34,3 +35,34 @@ li a {
 li a:hover {
 	color: #F5C2CB;
 }
+
+#mainParagraph {
+	text-align: center;
+	width: px;
+	max-height: 11em;
+	font-size: 1.2em;
+	margin-top: 0.5em;
+	background-color: lightgray;
+}
+
+.photos {
+	display: flex;
+	justify-content: center;
+	gap: 2.5em;
+	background-color:;
+	margin-top: 2.5em;
+}
+
+h2 {
+	background-color: ;
+	text-align: center;
+	margin-top: 1em;
+	font-size: 1.8em;
+}
+
+.services {
+	background-color: lemonchiffon;
+	
+
+}
+
