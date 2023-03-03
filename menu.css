@@ -21,13 +21,13 @@ ul {
 	height: 50px;
 	display: flex;
 	flex-wrap: wrap;
-	gap: 2.5em;
+	gap: 4em;
 	justify-content: center;
 	list-style-type: none;
 	margin-top: 2.5em;
 }
 li a {
-	font-size: 1.5em;
+	font-size: 1.6em;
 	text-decoration: none;
 	color: #1F3351;
 }
@@ -37,20 +37,26 @@ li a:hover {
 }
 
 #mainParagraph {
+	height: auto;
 	text-align: center;
-	width: px;
-	max-height: 11em;
-	font-size: 1.2em;
+	font-size: 1em;
 	margin-top: 0.5em;
-	background-color: lightgray;
+	background-color: ;
+	letter-spacing: 0.7px;
+	line-height:1.7;
 }
 
 .photos {
 	display: flex;
 	justify-content: center;
 	gap: 2.5em;
-	background-color:;
+	background-color: ;
 	margin-top: 2.5em;
+}
+
+.photos img:hover {
+	border: 3px solid #F5C2CB;
+	color: #F5C2CB;
 }
 
 h2 {
@@ -60,9 +66,26 @@ h2 {
 	font-size: 1.8em;
 }
 
-.services {
-	background-color: lemonchiffon;
-	
+article div {
+	border: 1px solid black;
+	margin: 10px;
+	padding: 15px;
+	border-radius: 15px;
+	background-color: lightpink;
 
 }
+.services {
+	margin-top: 2.5em;
+	background-color: lemonchiffon;
+	display: grid;
+	grid-template-columns: repeat(4, 300px);
+	
+	grid-gap: 50px;
+
+	
+}
+
+
+@media (max-width: 40rem) {
+
 
