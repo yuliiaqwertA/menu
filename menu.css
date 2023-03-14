@@ -3,7 +3,6 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	font-family: ;
 	font-size: 16px;
 	font-family: 'Montserrat',Arial,sans-serif;
 }
@@ -26,6 +25,7 @@ ul {
 	list-style-type: none;
 	margin-top: 2.5em;
 }
+
 li a {
 	font-size: 1.6em;
 	text-decoration: none;
@@ -41,7 +41,6 @@ li a:hover {
 	text-align: center;
 	font-size: 1em;
 	margin-top: 0.5em;
-	background-color: ;
 	letter-spacing: 0.7px;
 	line-height:1.7;
 }
@@ -49,6 +48,7 @@ li a:hover {
 .photos {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 	gap: 2.5em;
 	background-color: ;
 	margin-top: 2.5em;
@@ -62,30 +62,64 @@ li a:hover {
 h2 {
 	background-color: ;
 	text-align: center;
-	margin-top: 1em;
+	margin-top: 2.5em;
 	font-size: 1.8em;
 }
 
-article div {
-	border: 1px solid black;
-	margin: 10px;
-	padding: 15px;
-	border-radius: 15px;
-	background-color: lightpink;
-
-}
-.services {
+.block {
+	background-color: ;
+	padding: 1em;
+	text-align: ;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 2.5em;
 	margin-top: 2.5em;
-	background-color: lemonchiffon;
-	display: grid;
-	grid-template-columns: repeat(4, 300px);
-	
-	grid-gap: 50px;
 
-	
+}
+
+.block img {
+	width: 180px;
+	height: 160px;
+	object-fit: cover;
 }
 
 
-@media (max-width: 40rem) {
+.heading {
+	width: 180px;
+	height: 40px;
+	text-align: center;
+	margin-top: 1em;
+	font-size: 1em;
+	letter-spacing: 0.7px;
+	color: #1F3351;
+}
+
+.heading:hover {
+	color: #F5C2CB;
+}
 
 
+
+.paragraph {
+	margin-top: 1em;
+	width: 180px;
+	height: 130px;
+	text-align: center;
+	overflow: auto;
+	box-sizing: border-box;
+	font-size: 1em;
+	letter-spacing: 0.4px;
+	line-height:1;
+	color: #1F3351;
+}
+
+
+footer {
+	margin-top: 2.5em;
+	border: 14px solid #F5C2CB;
+	background-color: lightgrey;
+	border-bottom: 16px solid #F5C2CB;
+
+}
