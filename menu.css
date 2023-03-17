@@ -15,8 +15,7 @@
 	margin-bottom: 1em;
 }
 
-ul {
-	background-color: ;
+#header {
 	height: 50px;
 	display: flex;
 	flex-wrap: wrap;
@@ -118,8 +117,51 @@ h2 {
 
 footer {
 	margin-top: 2.5em;
-	border: 14px solid #F5C2CB;
+	border-top: 4px solid #F5C2CB;
 	background-color: lightgrey;
-	border-bottom: 16px solid #F5C2CB;
+	min-height: 20em;
 
 }
+
+.mainfooter {
+	background-color: ;
+	display: flex;
+	justify-content: space-between;
+	gap: 2.5em;
+	line-height:2.7;
+
+}
+
+#help, #rewards, #company {
+	display: block;
+	list-style-type: none;
+	
+}
+
+#rewsecond {
+
+	margin-top: 3em;
+}
+.bottom {
+	border: 2px solid red;
+	display: flex;
+	justify-content: space-around;
+	gap: 1em;
+	margin-top: 3em;
+	min-height: 2em;
+}
+
+#bottom {
+	list-style-type: none;
+	display: flex;
+	gap: 2.5em;
+}
+
+.bottom p {
+	background-color: lavender;
+	border: 2px solid black;	
+}
+#logofooter {
+	margin-bottom: 2.5em;
+}
+
