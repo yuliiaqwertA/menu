@@ -9,14 +9,12 @@
 
 
 #logo {
-	background-color: ;
 	text-align: center;
 	margin-top: 2.5em;
 	margin-bottom: 1em;
 }
 
 #header {
-	height: 50px;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 4em;
@@ -39,7 +37,7 @@ li a:hover {
 	height: auto;
 	text-align: center;
 	font-size: 1em;
-	margin-top: 0.5em;
+	margin-top: 2.5em;
 	letter-spacing: 0.7px;
 	line-height:1.7;
 }
@@ -75,7 +73,6 @@ h2 {
 	flex-wrap: wrap;
 	gap: 2.5em;
 	margin-top: 2.5em;
-
 }
 
 .block img {
@@ -100,7 +97,6 @@ h2 {
 }
 
 
-
 .paragraph {
 	margin-top: 1em;
 	width: 180px;
@@ -118,50 +114,68 @@ h2 {
 footer {
 	margin-top: 2.5em;
 	border-top: 4px solid #F5C2CB;
-	background-color: lightgrey;
+	background-color: ;
 	min-height: 20em;
-
+	margin-right: 1em;
+	margin-left: 1em;
+	margin-bottom: 1em;
 }
 
 .mainfooter {
-	background-color: ;
 	display: flex;
 	justify-content: space-between;
 	gap: 2.5em;
 	line-height:2.7;
-
 }
 
 #help, #rewards, #company {
 	display: block;
-	list-style-type: none;
-	
+	list-style-type: none;	
 }
 
 #rewsecond {
-
 	margin-top: 3em;
 }
+
 .bottom {
-	border: 2px solid red;
+	background-color:;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	gap: 1em;
 	margin-top: 3em;
+	padding-top: 0.2em;
 	min-height: 2em;
+	border-top: 1px solid #F5C2CB;
 }
 
-#bottom {
+
+.bottom ul {
 	list-style-type: none;
 	display: flex;
-	gap: 2.5em;
+	gap: 2em;
 }
 
-.bottom p {
-	background-color: lavender;
-	border: 2px solid black;	
-}
+
 #logofooter {
 	margin-bottom: 2.5em;
 }
+
+
+@media (max-width: 40rem) {
+	#logo {
+		border: 2px solid black;
+	}
+	
+	#header {
+		background-color: lightblue;
+	}
+	#mainParagraph {
+		background-color: lightgray;
+	}
+	.photos {
+		background-color: lightskyblue;
+	}
+
+}
+	
 
