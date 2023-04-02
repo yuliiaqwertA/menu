@@ -14,6 +14,7 @@
 	margin-bottom: 1em;
 }
 
+
 #header {
 	display: flex;
 	flex-wrap: wrap;
@@ -32,6 +33,7 @@ li a {
 li a:hover {
 	color: #F5C2CB;
 }
+
 
 #mainParagraph {
 	height: auto;
@@ -57,14 +59,12 @@ li a:hover {
 }
 
 h2 {
-	background-color: ;
 	text-align: center;
 	margin-top: 2.5em;
 	font-size: 1.8em;
 }
 
 .block {
-	background-color: ;
 	padding: 1em;
 	text-align: ;
 	display: flex;
@@ -110,11 +110,9 @@ h2 {
 	color: #1F3351;
 }
 
-
 footer {
 	margin-top: 2.5em;
 	border-top: 4px solid #F5C2CB;
-	background-color: ;
 	min-height: 20em;
 	margin-right: 1em;
 	margin-left: 1em;
@@ -138,7 +136,6 @@ footer {
 }
 
 .bottom {
-	background-color:;
 	display: flex;
 	justify-content: space-between;
 	gap: 1em;
@@ -152,30 +149,100 @@ footer {
 .bottom ul {
 	list-style-type: none;
 	display: flex;
-	gap: 2em;
+	gap: 2.5em;
 }
 
 
 #logofooter {
-	margin-bottom: 2.5em;
+	margin-bottom: 3.5em;
 }
 
 
-@media (max-width: 40rem) {
-	#logo {
-		border: 2px solid black;
+
+
+
+
+
+@media (max-width: 768px) {
+	
+	#logo img {
+	    width: auto;
+		height: 50px;
+		margin-top: 0.5em;
+		margin-bottom: 1em;
 	}
 	
 	#header {
-		background-color: lightblue;
+		width: 100%;
+	    margin-top: 0.5em;
+	    gap: 1em;
+	    margin-top: 1.5em; 
 	}
-	#mainParagraph {
-		background-color: lightgray;
-	}
-	.photos {
-		background-color: lightskyblue;
-	}
+	li a {
+	    font-size: 2rem;
+    }
 
+    #mainParagraph {
+	width: 100%;
+	font-size: 1.5rem;
+	margin-top: 0.5em;
+	letter-spacing: 0.7px;
+	line-height:1.7;
+}
+
+.photos {
+	width: 100%;
+	
+}
+.photos img {
+	width: 300px;
+	height: 533px;
+}
+
+h2 {
+	margin-top: 1.5em;
+	font-size: 2rem;
+}
+
+.block {
+	gap: 1.5em;
+	margin-top: 0.5em;
+	width: 100%;
+}
+
+.block img {
+	width: 550px;
+	height: 978px;
+}
+.block h3 {
+font-size: 2rem;
+width: 550px;
+height: auto;
+}
+
+.paragraph {
+	margin-top: 1em;
+	width: 550px;
+	height: auto;
+	font-size: 1rem;
+}
+   
+	
+	 
+	 .mainfooter, #help, #rewards, #company, #rewsecond, #logofooter {
+	   display: none;
+    }
+
+footer {
+	 border-top: none;
+
+    }
+
+
+
+  
+
+   
 }
 	
 
