@@ -121,9 +121,11 @@ footer {
 	border-top: 4px solid #F5C2CB;
 	min-height: 20em;
 	margin-bottom: 1em;
-	max-width: 840px;
+	max-width: 1400px;
 	margin-right: auto;
 	margin-left: auto;
+	padding-left: 2em;
+	padding-right: 2em;
 }
 
 .mainfooter {
@@ -160,7 +162,7 @@ footer {
 .bottom ul {
 	list-style-type: none;
 	display: flex;
-	gap: 2.5em;
+	gap: 3.5em;
 }
 
 
@@ -168,8 +170,7 @@ footer {
 	margin-bottom: 3.5em;
 }
 
-
-
+ 
 
 
 
@@ -198,20 +199,41 @@ ul.tera li {
 }
 
 div.mobile-wrapper {
-	
 	height: 40px;
 	overflow: hidden;
 	width: 100%;
 }
 
 #mainParagraph {
-	margin-top: 1em;
-	letter-spacing: 0.4px;
-	line-height: 1.1;
-
+	margin-top: 0;
+	text-align: center;
+    font-size: 1.2rem;
+    line-height: 28px;
+}
+.photos {
+	background-color: rgb(247, 247, 247);
 	
 }
 
+.first, .second, .third, .fourth, .photos {
+	 box-shadow:rgb(0 0 0 / 16%) 0px 47px 46px -27px, rgb(0 0 0 / 6%) 0px 2px 12px 0px;
+}
+
+.first, .second, .third, .fourth {
+	padding: 50px 80px 50px;
+}
+
+body {
+	max-width: 800px;
+	align-items: center;
+}
+.bottom, p, #bottom {
+	gap: 1em;
+	
+}
+.bottom li {
+	font-size: 5px;
+}
 
 
 }
