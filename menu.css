@@ -227,13 +227,19 @@ body {
 	max-width: 800px;
 	align-items: center;
 }
-.bottom, p, #bottom {
-	gap: 1em;
-	
+
+
+.bottom {
+	line-height:2.7;
+	display: block;
 }
-.bottom li {
-	font-size: 5px;
+
+.bottom ul {
+	display: block;
 }
+
+
+
 
 
 }
